@@ -1,0 +1,10 @@
+version: '3'
+services:
+  rabbitmq:
+    image: rabbitmq:3.11.6-management-alpine
+    ports:
+      - "5000:5672"
+      - "5001:15672"
+    volumes:
+      - ./_data/rabbitmq:/var/lib/rabbitmq/mnesia
+

@@ -1,0 +1,6 @@
+.idea/
+_build/
+_data/
+deps/
+erl_crash.dump
+*.iml
